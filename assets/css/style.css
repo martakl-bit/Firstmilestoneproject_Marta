@@ -1,8 +1,15 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+    font-family: 'Anton', sans-serif;
 }
 /*----------JUMBOTRON----------*/
 
+#education {
+    background-image: url('../images/education.jpeg');
+}
+#experience {
+    background-image: url('../images/experience.jpeg');
+}
 #landing-page {
     background-attachment: fixed;
     background-image: url('../images/strong-taurus-bull.jpg');
@@ -20,6 +27,62 @@ body {
 }
 
 h1 {
-    padding-top: 5%;
+    padding-top: 0.5%;
     font-size: 5.5em;
 }
+/* ----------------------------------------Special paddings/margins/text */
+
+.history-heading,
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/* ----------------------------------------Work History */
+
+.education-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.history-items {
+    margin-bottom: 30px;

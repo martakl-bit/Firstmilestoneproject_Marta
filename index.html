@@ -13,92 +13,228 @@
 		style="text/css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
 		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" style="text/css" />
 
 	<title>Marta Korts-Laur | First Project | Code Institute</title>
 </head>
+<!-- landing page-->
 
-<body>
-	<!--jumbotron/navbar-->
+<body data-gr-c-s-loaded="true">
+
+	<a href="/" class="navbar-brand"></a>
+	<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+	<nav class="navbar navbar-expand-sm navbar-fixed-top">
+		<div class="container">
+			<div class="intro">
+				<h1 class="first name">Marta</h1>
+				<h1 class="last name">Korts-Laur</h1>
+
+				<div>
+					<p class="title">Student at Tallinn University & Future Full-Stack Software Developer</p>
+				</div>
+			</div>
+	</nav>
+	<div class="container-fluid navalert-container" id="landing-page">
+
+		<nav class="navbar navbar-dark navbar-expand-sm">
+
+
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav mr-auto">
+					<li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="/education">Education</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="/experience">Experience</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="/toolbox">Toolbox</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Projects at Code Institute
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">2nd milestone project</a>
+							<a class="dropdown-item" href="#">3rd milestone project</a>
+							<a class="dropdown-item" href="#">4th milestone project</a>
+						</div>
+					</li>
+
+					<li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/contact">Contact</a></li>
+				</ul>
+			</div>
+			<div class="d-none d-md-block">
+				<p class="navbar-text my-auto mr-2"><i></i></p>
+				<a href="/contact" class="btn btn--cta btn--red">Contact</a>
+			</div>
+		</nav>
+	</div>
+
+	<!--/landing page-->
+
+	<!--jumbotron/navbar-
 	<header class="jumbotron" id="landing-page">
+
 		<nav class="navbar navbar-expand-sm navbar-fixed-top">
 			<div class="container top">
-				<a href="/" class="navbar-brand">
                 <h1 class="name">Marta Korts-Laur</h1>
                 <h3 class="school">Student at Tallinn University</h3>
                 <h3 class="space">&</h3>
                 <h3 class="job">Future Full-Stack Software Developer</h3></a>
 			</div>
 
-		</nav>
-        <nav class="">
+        <a href="/" class="navbar"></a>
 				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="ul navbar-nav">
+					<ul class="ul navbar-nav mr-auto">
 						<li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-						<li class="nav-item mr-2"><a class="nav-link" href="/resume">Resume</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="/personal info">Personal Info</a></li>
+						<li class="nav-item mr-2"><a class="nav-link" href="/education">Education</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/experience">Experience</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/toolbox">Toolbox</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact</a></li>
 						<li class="nav-item dropdown">
 						</li>
 					</ul>
-					</ul>
-
+					</div>
 		</nav>
 
+</header-->
 
-	</header>
-    <!--Education-->
-	<section class="second page">
-<div class="container scroll page">
-<div class="row">
-    <div class="col">
-    </div>
-    <div class="row">
-    <div class="col">
-    </div>
-    </div>
+	<!--Education-->
+
+	<section class="container-fluid">
+		<div class="row">
+			<div class="col md-4 bg-color-education-history section-column">
+				<div class="row">
+					<div class="col-12">
+						<h3 class="education-heading uppercase">Education</h3>
+					</div>
+					<div class="education-items">
+						<div class="timeline-item" data-dates="2010 - 2013">
+							<h4>University of Tartu</h4>
+							<p>Bachelor's Degree in Biology</p>
+						</div>
+						<div class="timeline-item" data-dates="2013 - 2017">
+							<h4>Tartu Healthcare College</h4>
+							<p>Diploma of Professional Higher Education, Curriculum of Biomedical Laboratory Science
+							</p>
+						</div>
+						<div class="timeline-item" data-dates="2018 - Present">
+							<h4>University of Tallinn</h4>
+							<p>Master's Degree in Molecular Biochemistry and Ecology</p>
+						</div>
+						<div class="timeline-item" data-dates="02/2019 - 07/2019">
+							<h4>University of Zagreb</h4>
+							<p>Erasmus Student Exchange: Biochemistry (ISCED 0512)</p>
+						</div>
+						<div class="timeline-item" data-dates="09/2019 - 01/2020">
+							<h4>Code Institute</h4>
+							<p>Full Time Diploma in Software Development</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 bg-color section-column" id="education">
+				<div class="row">
+					<div class="col">
+						<h3 class="uppercase">tekst</h3>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<!--/Education-->
+	<!--Experience-->
+	<div class="container experience-container">
+		<section class="second page container fluid">
+			<div class="col-ms-8 bg-color-image section column container scroll page history items">
+				<div class="row">
+					<div class="col" id="experience">
+						<p>tekst</p>
+					</div>
 
 
-
-
-
-
-
-</div>
-</div>
-
-<!--/Education-->
-
-<!--Experience-->
-
-<!--/Experience-->
+					<div class="row">
+						<div class="col md-4 bg-color-education-history section-column">
+							<div class="row">
+								<div class="col-12">
+									<h3 class="education-heading uppercase">
+										Experience
+									</h3>
+								</div>
+							</div>
+							<div class="experience-items">
+								<div class="timeline-item" data-dates="06/2013 - 08/2013">
+									<h4>JYSK</h4>
+									<p>Seasonal Customer Service Representative </p>
+								</div>
+								<div class="timeline-item" data-dates="04/2016 - 15/2016">
+									<h4>SYNLAB Estonia</h4>
+									<p>Trainee, Clinical Chemistry and Hematology department</p>
+								</div>
+								<div class="timeline-item" data-dates="07/2016 - 08/2016">
+									<h4>The North Estonia Medical Centre</h4>
+									<p>Biomedical Laboratory Scientist Assistant, Clinical Chemistry and
+										Hematology department</p>
+								</div>
+								<div class="timeline-item" data-dates="02/2017 - 02/2019">
+									<h4>The North Estonia Medical Centre</h4>
+									<p>Biomedical Laboratory Scientist, Pathology department</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!--/Experience-->
 
 	</section>
 
-    <section>
-<!--About Me-->
+	<section>
+		<!--Toolbox-->
+		<div class="container">
+			<div class="row toolbox-section">
+				<div class="col toolbox">
+					<h2 class="toolbox-head uppercase">
+						Toolbox
+					</h2>
+					<p>tekst</p>
+					<ul class="skills">
+					</ul>
+				</div>
+			</div>
 
-<!--/About Me-->
-</section>
+			<!--/Toolbox-->
+	</section>
 
-<section>
-<!--Future Skills-->
+	<div class="container">
+		<div class="row projects-section">
+			<div class="col projects">
+				<h2 class="projects-head uppercase">
+					Projects at Code Institute
+				</h2>
+				<p>tekst</p>
+				<ul class="projects">
+				</ul>
+			</div>
+		</div>
+		<section>
+			<!--Projects-->
 
-<!--/Future Skills-->
-</section>
+			<!--/Projects-->
+		</section>
 
-	<footer class="container-fluid">
-    <div class="row">
-    <div class="col">
-    </div>
+		<footer class="container-fluid">
+			<div class="row">
+				<div class="col">
+				</div>
 
-    </div>
-	</footer>
+			</div>
+		</footer>
 
-	<!--TAKEN STRAIGHTLY FROM BTN To conclude our brief adventure into JavaScript, we're going to add a modal dialog to our page.
+		<!--TAKEN STRAIGHTLY FROM BTN To conclude our brief adventure into JavaScript, we're going to add a modal dialog to our page.
 In web development, a modal is an in page overlay that will be launched when the user clicks a sign-up button.
 This prevents the user from having to visit a separate page and will hopefully increase the number of signups that we receive.
 To avoid us having to retype everything, I'm going to copy and paste the basic modal code from Bootstrap's documentation.<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
@@ -131,15 +267,15 @@ To avoid us having to retype everything, I'm going to copy and paste the basic m
             </div>
         </div>
     </div> -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-	</script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+		</script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+		</script>
 </body>
 
 </html>
