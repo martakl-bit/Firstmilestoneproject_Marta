@@ -2,7 +2,13 @@ body {
     background-attachment: fixed;
     font-family: 'Anton', sans-serif;
 }
-/*----------JUMBOTRON----------*/
+/*----------Background color------*/
+
+.bg-color-experience {
+    background-color: #ffc107;
+}
+
+/*----------Landing page----------*/
 
 #education {
     background-image: url('../images/education.jpeg');
