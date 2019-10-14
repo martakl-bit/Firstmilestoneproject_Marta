@@ -1,6 +1,6 @@
 body {
     background-attachment: fixed;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 /*----------Background color------*/
 
@@ -14,10 +14,10 @@ body {
 /*----------Landing page----------*/
 
 #education {
-    background-image: url('../images/education.jpeg');
+    background-image: url('../images/education.jpg');
 }
 #experience {
-    background-image: url('../images/experience.jpeg');
+    background-image: url('../images/experience.jpg');
 }
 #landing-page {
     background-attachment: fixed;
@@ -43,13 +43,12 @@ h1 {
     text-transform: uppercase;
     font-weight: 700;
 }
-.first name {
+.intro {
+    text-transform: uppercase;
     font-weight: 700;
 }
 
-.last name {
-    font-weight: 700;
-}
+
 
 /* ----------------------------------------Special paddings/margins/text */
 
@@ -107,3 +106,69 @@ h1 {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+
+  /* ----------------------------------------Toolbox */
+
+.toolbox-head {
+      text-transform: uppercase;
+  }
+   /* ----------------------------------------Projects */
+
+.projects-head {
+      text-transform: uppercase;
+  }
+  /* ----------------------------------------Contact */
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
