@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 body {
     background-attachment: fixed;
     font-family: 'Roboto Mono', monospace;
@@ -10,15 +12,15 @@ body {
 .bg-color-education {
     background-color: #6c757d;
 }
+.bg-color-toolbox {
+    background-color: #f5f5f0;
+}
+.bg-color-projects {
+  background-color: #8f8f8f;
+}
 
 /*----------Landing page----------*/
 
-#education {
-    background-image: url('../images/education.jpg');
-}
-#experience {
-    background-image: url('../images/experience.jpg');
-}
 #landing-page {
     background-attachment: fixed;
     background-image: url('../images/strong-taurus-bull.jpg');
@@ -59,8 +61,15 @@ h1 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
+/* ----------------------------------------Education */
+#education {
+    background-image: url('../images/education.jpg');
+}
 
-/* ----------------------------------------Work History */
+/* ----------------------------------------Experience */
+#experience {
+    background-image: url('../images/experience.jpg');
+}
 
 .education-heading {
     color: #fafafa;
