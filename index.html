@@ -20,17 +20,23 @@
 
 	<title>Marta Korts-Laur | First Project | Code Institute</title>
 </head>
-<!-- landing page-->
+<!-- Landing page-->
 
 <body>
+
 	<nav class="navbar navbar-light navbar-expand-sm">
-		< <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+    <a href="/home" class="navbar-brand"><i class="fas fa-home"></i></a>
+		 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
 			aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span></button>
+            <div class="d-md-block">
+				<p class="navbar-text my-auto mr-2"><i></i></p>
+				<a href="/contact" class="btn btn--cta">Contact</a>
+			</div>
 
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav mr-auto">
-					<li class="active nav-item mr-2"><a class="nav-link">Home</a></li>
+					<!-- <li class="active nav-item mr-2"><a class="nav-link">Home</a></li> -->
 					<li class="nav-item mr-2"><a class="nav-link" href="/education">Education</a></li>
 					<li class="nav-item mr-2"><a class="nav-link" href="/experience">Experience</a></li>
 					<li class="nav-item mr-2"><a class="nav-link" href="/toolbox">Toolbox</a></li>
@@ -49,7 +55,9 @@
 
 					<li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/contact">Contact</a></li>
 				</ul>
+
 			</div>
+
 
 	</nav>
 
@@ -58,13 +66,10 @@
 			<div class="intro">
 				<h1 class="name">Marta Korts-Laur</h1>
 				<div>
-					<h2 class="title">Student at Tallinn University & Future Full-Stack Software Developer</h2>
+					<h3 class="title">Student at Tallinn University & Future Full-Stack Software Developer</h3>
 				</div>
 			</div>
-			<div class="d-md-block">
-				<p class="navbar-text my-auto mr-2"><i></i></p>
-				<a href="/contact" class="btn btn--cta">Contact</a>
-			</div>
+
 	</nav>
 
 	<div class="container-fluid navalert-container">
@@ -198,8 +203,10 @@
 						Toolbox
 					</h2>
 					<ul class="skills">
+                    <div class="row">
+                    <div class="col-6">
 
-						<h3>Front end development tools and skills:</h3>
+						<h3>Front end dev. tools and skills:</h3>
 						<p>HTML/HTML5</p>
 						<p>CSS/CSS3</p>
                         <p>Bootstrap</p>
@@ -207,19 +214,22 @@
                         <p>Testing with Jasmine</p>
                         <p>Responsive design</p>
 
+                        </div>
 
 
-						<h3>Backend development tools:</h3>
+<div class="col-6">
+						<h3>Backend dev. tools:</h3>
 						<p>Python/Django</p>
                         <p>Flask</p>
-
+<hr />
                         <h3>Working with data:</h3>
                         <p>MySQL</p>
                         <P>MongoDB</P>
-
+<hr />
                         <h3>Version control:</h3>
 						<p>GIT</p>
-
+</div>
+</div>
 					</ul>
 				</div>
 
@@ -231,6 +241,7 @@
             </div> -->
 				<div class="col-md-8 order-2 bg-color-projects" id="projects">
 					<h2 class="projects-head">Projects at Code Institute</h2>
+
 					<!-- Trigger the modal with a button -->
 					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#project_02">2nd project</button>
 
@@ -247,15 +258,21 @@
 								<div class="modal-body">
                                 <div class="row-justify-content-center">
                                 <div class="col-6">
-                                <img src="">
+                                <img src="./assets/images/project1.jpeg" class="rounded-circle mr-3" height=100 width=100>
+                                </div>
+                                </div>
+                                <div class="row-justify-content-center"
 
 									<p>This project will be about combining HTML, CSS and JavaScript to create
 										interactive web applications. As well as working with data from external
 										applications using API (application programming interface) this project includes
 										creating data visualizations using custom Javascript Libraries.</p>
-                                        Code on Github
-                                        Live Website
+                                        <div class="row">
+                                       <a href="/" class="link" target="_blank"><i class="fas fa-desktop">Live Website</i></a>
+                                       <a href="/" class="link" target="_blank"><i class="fas fa-github">Code on GitHub</i></a>
+                                        </div>
 								</div>
+                                </div>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 								</div>
@@ -430,13 +447,13 @@
 	<footer class="container-fluid">
 		<div id="footer-details" class="row">
 			<div class="col-sm-3">
-				<h5 class="uppercase general-sub">Email </h5>
+				<h5 class="uppercase general-sub">Email</h5>
 				<p class="inline-block">
 					martakortslaur@gmail.com
 				</p>
 			</div>
 			<div class="col-sm-2">
-				<h5 class="uppercase general-sub">Mobile </h5>
+				<h5 class="uppercase general-sub">Mobile</h5>
 				<p class="inline-block">
 					+352 691 910425
 				</p>
