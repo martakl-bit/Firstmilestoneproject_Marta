@@ -30,7 +30,7 @@
 
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav mr-auto">
-					<li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+					<li class="active nav-item mr-2"><a class="nav-link">Home</a></li>
 					<li class="nav-item mr-2"><a class="nav-link" href="/education">Education</a></li>
 					<li class="nav-item mr-2"><a class="nav-link" href="/experience">Experience</a></li>
 					<li class="nav-item mr-2"><a class="nav-link" href="/toolbox">Toolbox</a></li>
@@ -58,12 +58,12 @@
 			<div class="intro">
 				<h1 class="name">Marta Korts-Laur</h1>
 				<div>
-					<p class="title">Student at Tallinn University & Future Full-Stack Software Developer</p>
+					<h2 class="title">Student at Tallinn University & Future Full-Stack Software Developer</h2>
 				</div>
 			</div>
-			<div class="d-none d-md-block">
+			<div class="d-md-block">
 				<p class="navbar-text my-auto mr-2"><i></i></p>
-				<a href="/contact" class="btn btn--cta btn--red">Contact</a>
+				<a href="/contact" class="btn btn--cta">Contact</a>
 			</div>
 	</nav>
 
@@ -199,14 +199,26 @@
 					</h2>
 					<ul class="skills">
 
-						<h3>Front end:</h3>
+						<h3>Front end development tools and skills:</h3>
 						<p>HTML/HTML5</p>
 						<p>CSS/CSS3</p>
+                        <p>Bootstrap</p>
+                        <p>JavaScript/jQuery</p>
+                        <p>Testing with Jasmine</p>
+                        <p>Responsive design</p>
 
 
-						<h3>Back end:</h3>
-						<P>JavaScript/jQuery</P>
+
+						<h3>Backend development tools:</h3>
 						<p>Python/Django</p>
+                        <p>Flask</p>
+
+                        <h3>Working with data:</h3>
+                        <p>MySQL</p>
+                        <P>MongoDB</P>
+
+                        <h3>Version control:</h3>
+						<p>GIT</p>
 
 					</ul>
 				</div>
@@ -217,13 +229,13 @@
 					<img src="">
 				</div>
             </div> -->
-				<div class="col-md-8 order-2 bg-color-projects">
+				<div class="col-md-8 order-2 bg-color-projects" id="projects">
 					<h2 class="projects-head">Projects at Code Institute</h2>
 					<!-- Trigger the modal with a button -->
-					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">2nd project</button>
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#project_02">2nd project</button>
 
 					<!-- Modal -->
-					<div class="modal fade" id="myModal" role="dialog">
+					<div class="modal fade" id="project_02" role="dialog">
 						<div class="modal-dialog">
 
 							<!-- Modal content-->
@@ -233,10 +245,16 @@
 									<h4 class="modal-title">Interactive Frontend Development Milestone Project</h4>
 								</div>
 								<div class="modal-body">
+                                <div class="row-justify-content-center">
+                                <div class="col-6">
+                                <img src="">
+
 									<p>This project will be about combining HTML, CSS and JavaScript to create
 										interactive web applications. As well as working with data from external
 										applications using API (application programming interface) this project includes
 										creating data visualizations using custom Javascript Libraries.</p>
+                                        Code on Github
+                                        Live Website
 								</div>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -246,9 +264,9 @@
 						</div>
 					</div>
 
-					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">3rd project</button>
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#project_03">3rd project</button>
 
-					<div class="modal fade" id="myModal" role="dialog">
+					<div class="modal fade" id="project_03" role="dialog">
 						<div class="modal-dialog">
 
 							<!-- Modal content-->
@@ -271,27 +289,30 @@
 					</div>
 
 
-					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">4th project</button>
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#project_04">4th project</button>
+					<div class="modal fade" id="project_04" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Full Stack Frameworks with Django Milestone Project</h4>
+								</div>
+								<div class="modal-body">
+									<p>With this project I will create an expressive, production-quality full-stack
+										applications using Django.</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
 
-					<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-							<h4 class="modal-title">Full Stack Frameworks with Django Milestone Project</h4>
-						</div>
-						<div class="modal-body">
-							<p>With this project I will create an expressive, production-quality full-stack
-								applications using Django.</p>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						</div>
 					</div>
-
 				</div>
 
 
-				<!-- <div class="col-md-8 order-2 bg-color-projects">
+					<!-- <div class="col-md-8 order-2 bg-color-projects">
 					<div class="row projects">
 						<ul class="projects">
 
@@ -320,7 +341,7 @@
 
 					</div>
 				</div> -->
-			</div>
+				</div>
 	</section>
 	<!-- <section>
 		<div class="container">
@@ -433,7 +454,7 @@
 			<div class="col-sm-2">
 				<h5 class="uppercase general-sub">University of Tallinn</h5>
 				<p class="inline-block">
-					<a target="_blank" href="https://www.tlu.ee/en">
+					<a href="https://www.tlu.ee/en">
 						<i class="far fa-university" aria-hidden="true"></i>
 						<span class="sr-only"></span>
 					</a>
