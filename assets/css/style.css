@@ -58,12 +58,15 @@ h1 {
 }
 
 .btn-cta {
-background-color: #6c757d;
+background-color: transparent;
   border: none;
   color: #ffc107;
   font-weight: 500;
   padding: 20px;
   text-align: center;
+  border-radius: 8px;
+  border-color: #ffc107;
+  border: 2px solid #ffc107;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
@@ -157,6 +160,16 @@ color: #17A2B6;
 
 .toolbox-head {
     text-transform: uppercase;
+    text-align: center;
+}
+
+.row toolbox {
+    text-align: center;
+}
+.skills .row {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
    /* ----------------------------------------Projects */
@@ -171,9 +184,11 @@ color: #17A2B6;
 .projects-head {
     text-transform: uppercase;
 }
-.project1-link {
-
-
+.modal-body {
+    position: center;
+}
+.projects a i {
+    float: center;
  }
 
 /* ----------------------------------------Contact */
@@ -193,15 +208,15 @@ footer {
 }
 
 .cv-pdf i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
+    width: 50px;
+    height: 50px;
+    /* padding: 12px 0;
+    border-radius: 50%; */
+    font-size: 25px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+    /* background: #8f8f8f; */
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -213,15 +228,14 @@ footer {
 }
 
 .university i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
+    width: 50px;
+    height: 50px;
+    /* padding: 12px 0;
+    border-radius: 50%; */
+    font-size: 25px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -236,15 +250,19 @@ footer {
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
+    width: 50px;
+    height: 50px;
+    /* padding: 15px 0;
+    border-radius: 50%; */
+    font-size: 20px;
     line-height: 7px;
+    display: inline;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+    /* background: #8f8f8f; */
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
