@@ -24,43 +24,40 @@
 
 <body>
 
-	<nav class="navbar navbar-light navbar-expand-sm">
-    <a href="/home" class="navbar-brand"><i class="fas fa-home"></i></a>
-		 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+
+	<nav class="navbar navbar-light navbar-expand-sm navbar-fixed-top">
+		<a href="/home" class="navbar-brand"><i class="fas fa-home"></i></a>
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
 			aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span></button>
-            <div class="d-md-block">
-				<p class="navbar-text my-auto mr-2"><i></i></p>
-				<a href="/contact" class="btn btn--cta">Contact</a>
-			</div>
 
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav mr-auto">
-					<!-- <li class="active nav-item mr-2"><a class="nav-link">Home</a></li> -->
-					<li class="nav-item mr-2"><a class="nav-link" href="/education">Education</a></li>
-					<li class="nav-item mr-2"><a class="nav-link" href="/experience">Experience</a></li>
-					<li class="nav-item mr-2"><a class="nav-link" href="/toolbox">Toolbox</a></li>
-					<li class="nav-item dropdown">
 
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Projects at Code Institute
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">2nd milestone project</a>
-							<a class="dropdown-item" href="#">3rd milestone project</a>
-							<a class="dropdown-item" href="#">4th milestone project</a>
-						</div>
-					</li>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav mr-auto">
+				<!--<li class="active nav-item mr-2"><a class="nav-link">Home</a></li> -->
+				<li class="nav-item mr-2"><a class="nav-link" href="/education">Education</a></li>
+				<li class="nav-item mr-2"><a class="nav-link" href="/experience">Experience</a></li>
+				<li class="nav-item mr-2"><a class="nav-link" href="/toolbox">Toolbox</a></li>
+				<li class="nav-item dropdown">
 
-					<li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/contact">Contact</a></li>
-				</ul>
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Projects at Code Institute
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">2nd milestone project</a>
+						<a class="dropdown-item" href="#">3rd milestone project</a>
+						<a class="dropdown-item" href="#">4th milestone project</a>
+					</div>
+				</li>
 
-			</div>
+				<li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/contact">Contact</a></li>
+			</ul>
+
+		</div>
 
 
 	</nav>
-
 	<nav class="navbar navbar-expand-sm navbar-fixed-top" id="landing-page">
 		<div class="container">
 			<div class="intro">
@@ -68,15 +65,14 @@
 				<div>
 					<h3 class="title">Student at Tallinn University & Future Full-Stack Software Developer</h3>
 				</div>
+				<div class="d-md-block">
+					<p class="navbar-text my-auto mr-2"><i></i></p>
+					<a href="/contact" class="btn btn--cta">Contact</a>
+				</div>
+
 			</div>
-
+		</div>
 	</nav>
-
-	<div class="container-fluid navalert-container">
-
-
-	</div>
-
 	<!--/landing page-->
 
 	<!--jumbotron/navbar-
@@ -203,33 +199,33 @@
 						Toolbox
 					</h2>
 					<ul class="skills">
-                    <div class="row">
-                    <div class="col-6">
+						<div class="row">
+							<div class="col-6">
 
-						<h3>Front end dev. tools and skills:</h3>
-						<p>HTML/HTML5</p>
-						<p>CSS/CSS3</p>
-                        <p>Bootstrap</p>
-                        <p>JavaScript/jQuery</p>
-                        <p>Testing with Jasmine</p>
-                        <p>Responsive design</p>
+								<h3>Front end dev. tools and skills:</h3>
+								<p>HTML/HTML5</p>
+								<p>CSS/CSS3</p>
+								<p>Bootstrap</p>
+								<p>JavaScript/jQuery</p>
+								<p>Testing with Jasmine</p>
+								<p>Responsive design</p>
 
-                        </div>
+							</div>
 
 
-<div class="col-6">
-						<h3>Backend dev. tools:</h3>
-						<p>Python/Django</p>
-                        <p>Flask</p>
-<hr />
-                        <h3>Working with data:</h3>
-                        <p>MySQL</p>
-                        <P>MongoDB</P>
-<hr />
-                        <h3>Version control:</h3>
-						<p>GIT</p>
-</div>
-</div>
+							<div class="col-6">
+								<h3>Backend dev. tools:</h3>
+								<p>Python/Django</p>
+								<p>Flask</p>
+								<hr />
+								<h3>Working with data:</h3>
+								<p>MySQL</p>
+								<P>MongoDB</P>
+								<hr />
+								<h3>Version control:</h3>
+								<p>GIT</p>
+							</div>
+						</div>
 					</ul>
 				</div>
 
@@ -256,77 +252,103 @@
 									<h4 class="modal-title">Interactive Frontend Development Milestone Project</h4>
 								</div>
 								<div class="modal-body">
-                                <div class="row-justify-content-center">
-                                <div class="col-6">
-                                <img src="./assets/images/project1.jpeg" class="rounded-circle mr-3" height=100 width=100>
+									<div class="row-justify-content-center">
+										<div class="col-6">
+											<img src="./assets/images/project1.jpeg" class="rounded-circle mr-3" height=100 width=100>
                                 </div>
-                                </div>
-                                <div class="row-justify-content-center"
-
-									<p>This project will be about combining HTML, CSS and JavaScript to create
-										interactive web applications. As well as working with data from external
-										applications using API (application programming interface) this project includes
-										creating data visualizations using custom Javascript Libraries.</p>
-                                        <div class="row">
-                                       <a href="/" class="link" target="_blank"><i class="fas fa-desktop">Live Website</i></a>
-                                       <a href="/" class="link" target="_blank"><i class="fas fa-github">Code on GitHub</i></a>
-                                        </div>
+										</div>
+										<div class="row-justify-content-center">
+											<p>This project will be about combining
+												HTML, CSS and JavaScript to create
+												interactive web applications. As well as working with data from external
+												applications using API (application programming interface) this project
+												includes
+												creating data visualizations using custom Javascript Libraries.</p>
+											<div class="row" class="project1-link">
+												<a target="_blank" href="/">
+													<i class="fas fa-desktop desktop-icon"></i></a>
+												<a target="_blank" href="/">
+													<i class="fab fa-github githb-icon"></i></a>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</div>
 								</div>
+
+							</div>
+						</div>
+
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#project_03">3rd project</button>
+
+						<div class="modal fade" id="project_03" role="dialog">
+							<div class="modal-dialog">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Data Centric Development Milestone Project</h4>
+									</div>
+									<div class="modal-body">
+                                    <div class="row-justify-content-center">
+										<div class="col-6">
+											<img src="./assets/images/project2.jpeg" class="rounded-circle mr-3" height=100 width=100>
                                 </div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+										<p>How the data is structured influence writing the code. In this project I will
+											be
+											working with structured and unstructured databases. This project focuses on
+											presenting data in a meaningful and easily digestible way.</p>
+                                            <div class="row" class="project1-link">
+												<a target="_blank" href="/">
+													<i class="fas fa-desktop desktop-icon"></i></a>
+												<a target="_blank" href="/">
+													<i class="fab fa-github githb-icon"></i></a>
+											</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#project_04">4th project</button>
+						<div class="modal fade" id="project_04" role="dialog">
+							<div class="modal-dialog">
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Full Stack Frameworks with Django Milestone Project</h4>
+									</div>
+									<div class="modal-body">
+                                    <div class="row-justify-content-center">
+										<div class="col-6">
+											<img src="./assets/images/project3.jpeg" class="rounded-circle mr-3" height=100 width=100>
+                                </div>
+										</div>
+										<p>With this project I will create an expressive, production-quality full-stack
+											applications using Django.</p>
+                                            <div class="row" class="project1-link">
+												<a target="_blank" href="/">
+													<i class="fas fa-desktop desktop-icon"></i></a>
+												<a target="_blank" href="/">
+													<i class="fab fa-github githb-icon"></i></a>
+											</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</div>
 								</div>
 							</div>
 
 						</div>
 					</div>
-
-					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#project_03">3rd project</button>
-
-					<div class="modal fade" id="project_03" role="dialog">
-						<div class="modal-dialog">
-
-							<!-- Modal content-->
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h4 class="modal-title">Data Centric Development Milestone Project</h4>
-								</div>
-								<div class="modal-body">
-									<p>How the data is structured influence writing the code. In this project I will be
-										working with structured and unstructured databases. This project focuses on
-										presenting data in a meaningful and easily digestible way.</p>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-								</div>
-							</div>
-
-						</div>
-					</div>
-
-
-					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#project_04">4th project</button>
-					<div class="modal fade" id="project_04" role="dialog">
-						<div class="modal-dialog">
-							<!-- Modal content-->
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h4 class="modal-title">Full Stack Frameworks with Django Milestone Project</h4>
-								</div>
-								<div class="modal-body">
-									<p>With this project I will create an expressive, production-quality full-stack
-										applications using Django.</p>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
 
 
 					<!-- <div class="col-md-8 order-2 bg-color-projects">
@@ -446,61 +468,58 @@
 	<!--/Contact-->
 	<footer class="container-fluid">
 		<div id="footer-details" class="row">
-			<div class="col-sm-3">
-				<h5 class="uppercase general-sub">Email</h5>
+			<div class="col-sm-4">
+				<h5 class="general-sub">Email</h5>
 				<p class="inline-block">
 					martakortslaur@gmail.com
 				</p>
 			</div>
 			<div class="col-sm-2">
-				<h5 class="uppercase general-sub">Mobile</h5>
+				<h5 class="general-sub">Mobile</h5>
 				<p class="inline-block">
 					+352 691 910425
 				</p>
 			</div>
 			<div class="col-sm-2">
-				<h5 class="uppercase general-sub">Download my CV</h5>
+				<h5 class="general-sub">Download my CV</h5>
 				<p class="inline-block">
 					<a href="assets/CV/marta_cv.pdf" target="_blank" class="cv-pdf">
-						<i class="far fa-download" aria-hidden="true"></i>
+						<i class="fas fa-file-download" aria-hidden="true"></i>
 						<span class="sr-only">Download link</span>
 					</a>
 				</p>
 			</div>
 
-			<div class="col-sm-2">
-				<h5 class="uppercase general-sub">University of Tallinn</h5>
+			<div class="col-sm-2 d-md-none d-lg-block">
+				<h5 class="general-sub">University of Tallinn</h5>
 				<p class="inline-block">
-					<a href="https://www.tlu.ee/en">
-						<i class="far fa-university" aria-hidden="true"></i>
+					<a href="/" target="_blank" class="university">
+						<i class="fas fa-graduation-cap" aria-hidden="true"></i>
 						<span class="sr-only"></span>
 					</a>
 				</p>
 			</div>
-			<div class="col-sm-2 offset-1">
+			<div class="col-sm-2">
 				<h5 class="uppercase general-sub">Social</h5>
 				<ul class="list-inline social-links">
-					</li>
 					<li class="list-inline-item">
 						<a target="_blank" href="#">
-							<i class="fa fa-github" aria-hidden="true"></i>
+							<i class="fab fa-github" aria-hidden="true"></i>
 							<span class="sr-only">Github</span>
 						</a>
 					</li>
-
 					<li class="list-inline-item">
 						<a target="_blank" href="#">
-							<i class="fa fa-linkedin" aria-hidden="true"></i>
+							<i class="fab fa-linkedin" aria-hidden="true"></i>
 							<span class="sr-only">LinkedIn</span>
 						</a>
 					</li>
 					<li class="list-inline-item">
 						<a target="_blank" href="#">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<i class="fab fa-facebook" aria-hidden="true"></i>
 							<span class="sr-only">Facebook</span>
 						</a>
 					</li>
-
 				</ul>
 			</div>
 		</div>
