@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700'); */
 
 body {
     background-attachment: fixed;
@@ -53,7 +53,9 @@ h1 {
     top: 0vh;
 }
 
-
+.navbar {
+    background-color:#ffc107
+}
 
 /* ----------------------------------------Special paddings/margins/text */
 
@@ -149,7 +151,10 @@ h1 {
 .projects-head {
     text-transform: uppercase;
 }
+ .project1-link {
 
+
+ }
 
 /* ----------------------------------------Contact */
 button[type="submit"] {
