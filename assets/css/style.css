@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700'); */
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700'); */
 
 body {
     background-attachment: fixed;
@@ -54,9 +54,29 @@ h1 {
 }
 
 .navbar {
-    background-color:#ffc107
+    background-color: transparent;
 }
 
+.btn-cta {
+background-color: #6c757d;
+  border: none;
+  color: #ffc107;
+  font-weight: 500;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
+.btn-cta p {
+    text-align: center;
+}
+.btn-cta:hover {
+color: #17A2B6;
+}
 /* ----------------------------------------Special paddings/margins/text */
 
 .history-heading,
@@ -151,7 +171,7 @@ h1 {
 .projects-head {
     text-transform: uppercase;
 }
- .project1-link {
+.project1-link {
 
 
  }
@@ -160,6 +180,8 @@ h1 {
 button[type="submit"] {
     background-color: #17A2B6;
     color: #f8f9fa;
+    border-color: transparent;
+    float:center;
 }
 
 /* ----------------------------------------Footer */
