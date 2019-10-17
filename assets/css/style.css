@@ -82,14 +82,8 @@ color: #17A2B6;
 }
 /* ----------------------------------------Special paddings/margins/text */
 
-.history-heading,
-.section-heading {
-    font-family: "Exo";
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
-/* ----------------------------------------Education */
+
+/* ----------------------------------------Education/Experience */
 #education {
     background-image: url('../images/education.jpeg');
     background-repeat: no-repeat;
@@ -98,6 +92,17 @@ color: #17A2B6;
     margin-left: auto;
     margin-right: auto;
 }
+.education-head {
+    text-transform: uppercase;
+    color: white;
+}
+
+#institute,
+#university {
+    color:#ffc107;
+}
+
+
 
 /* ----------------------------------------Experience */
 #experience {
@@ -109,9 +114,10 @@ color: #17A2B6;
     margin-right: auto;
 }
 
-.education-heading {
+.experience-head {
     color: #fafafa;
     margin-bottom: 50px;
+    text-transform: uppercase;
 }
 
 .timeline-item {
@@ -160,7 +166,6 @@ color: #17A2B6;
 
 .toolbox-head {
     text-transform: uppercase;
-    text-align: center;
 }
 
 .row toolbox {
@@ -196,7 +201,7 @@ button[type="submit"] {
     background-color: #17A2B6;
     color: #f8f9fa;
     border-color: transparent;
-    float:center;
+    float: center;
 }
 
 /* ----------------------------------------Footer */
