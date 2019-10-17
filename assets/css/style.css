@@ -40,7 +40,7 @@ body {
 
 h1 {
     padding-top: 0.5%;
-    font-size: 5.5em;
+    /* font-size: 5.5em; */
 }
 .title {
     text-transform: uppercase;
@@ -88,7 +88,7 @@ color: #17A2B6;
 #education {
     background-image: url('../images/education.jpeg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -182,7 +182,7 @@ color: #17A2B6;
 #projects {
     background-image: url('../images/projects.jpeg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -311,3 +311,62 @@ media query for
 #footer-details {
     padding: 20px;
 }
+
+/*-------------Media queries------------ */
+
+/* @media (max-width: 768px) and (min-width: 375px) {
+    .scroll-work {
+        width: 80%;
+    }
+    .fa-chevron-down {
+        margin-top: 52vh;
+    }
+} */
+
+@media (max-width: 992px) {
+    #education, #experience, #landing-page, #contact{
+        background-attachment: scroll;
+    }
+}
+
+/* @media (min-width: 992px) {
+    #about-me {
+        background-image: url('../images/haley.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    }
+    #skills {
+        background-image: url('../images/skills.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    }
+    .fa-chevron-down {
+        margin-top: 32vh;
+    }
+} */
+
+@media (max-width: 992px) {
+    #education, #experience, #landing-page{
+        background-attachment: scroll;
+    }
+}
+
+/* @media (min-width: 992px) {
+    #about-me {
+        background-image: url('../images/haley.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    }
+    #skills {
+        background-image: url('../images/skills.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    }
+    .fa-chevron-down {
+        margin-top: 32vh;
+    }
+} */
