@@ -35,18 +35,16 @@ The section of education and resume is resolver by showing the different schools
 ...
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-
-Features Left to Implement
-Another feature idea
 Technologies Used
+b
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used. -->
-
+In the future I would like to update the projects section with my project links in the existing GitHub and Live webpage (desktop) icon links. So it will be useful for my professor and fellow students to see what I have done during this course. It is also a place to show my future empoyees my projects.
 JQuery
 The project uses JQuery to simplify DOM manipulation.
+In this project I used three different libaries: for Bootstrap.CSS, Bootstrap.js and jquery.js (links--> https://getbootstrap.com)
+
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. -->
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
@@ -77,8 +75,8 @@ Credits
 Content
 The text for section project was copied from the brochure of Code Institutes brochure.
 Media
-The photos used in this site were obtained from ...http://resizeimage.net/
-https://stock.adobe.com/ee/
+The photos used in this site were obtained from http://resizeimage.net/ and
+https://stock.adobe.com/ee/. In the Windows10 picture editing application I modified the landing oage picture, education section background and contact form background with the arctic filter. The picture for my landing page I found from google search word "taurus" from this webpage https://thetauruslife.com/badass-taurus-traits/.
 
 Acknowledgements
-I received inspiration for this project from the User centric design challenge Rosie's project. Also from the portfolio of Haley Schafer.
+I received inspiration for this project from the User centric design challenge Rosie's project. Also I wanted to have some features similar to the portfolio of Haley Schafer. For example the navbar and rounded icons.
