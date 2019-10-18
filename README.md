@@ -1,38 +1,47 @@
 # Firstmilestoneproject_Marta
 
 My user centric front end development project is my resume for myself and as it will also give credits to my university course program. It is also the official site for showing my projects to my professors and fellow students at one webpage. I wanted to create a webpage that has my "face" with a touch of who I am and what I want to present.
-The first page is something I built this webpage up and gave the inspiration. I believe that taurus represents a strong and determined character who I believe I am and also want to be. The colour palette is grey and yellow. Yellow is representing also something that is fun, because coding is a something new that I am learning. I also put the contact button with a modal to write a message to me, because I encourage people who are seeing this webpage to send me ideas for the projects.
-The second page is taken from my resume. It is clear overview of my education and work history.
-The third page is my toolbox overiew. It is the skills and web development technology I am learning in this course and will deploy to my projets. That leads straight to the project section with 3 future projecs I will be doing.
-On the contact page there is a section for sending me a message. The footer has my contact information and links to my university and different social sites.
+
 
 
 UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Mobile-first design focuses on the most important components of an application, then addresses the more complex elements for larger screens.
+Also it adresses the principle to reduce visual clutter or visual noise. By collapsing the navigation items behind a single icon,we can see that icons that are normally horizontal are displayed vertically to take up minimal real estate on the mobile view. Fluid layout: to help us design for the different screen sizes, we use a fluid layout.A fluid layout avoids fixed values in the CSS properties, which makes the elements' size relative to their viewport.
+CSS media queries are the most common approach for coding a responsive website.
+In order to implement responsive design on our web applications, a few fundamentals must be put in place.
+And one of these is the viewport meta tag.
+<!-- Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
 As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser. -->
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+<!-- In this section, you should go over the different parts of your project, and describe each in a sentence or so. -->
 The first page is something I built this webpage up and gave the inspiration. I believe that taurus represents a strong and determined character who I believe I am and also want to be. The colour palette is grey and yellow. Yellow is representing also something that is fun, because coding is a something new that I am learning. I also put the contact button with a modal to write a message to me, because I encourage people who are seeing this webpage to send me ideas for the projects.
 The second page is taken from my resume. It is clear overview of my education and work history.
 The third page is my toolbox overiew. It is the skills and web development technology I am learning in this course and will deploy to my projets. That leads straight to the project section with 3 future projecs I will be doing.
 On the contact page there is a section for sending me a message. The footer has my contact information and links to my university and different social sites.
 
+The modal attribution was taken straightly from bootstrap (https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_modal&stacked=h). With adding the modal dialog I also add using of JavaScript.
+In web development, a modal is an in page overlay that will be launched when the user clicks a sign-up or contact (in my case) button.
+This prevents the user from having to visit a separate page and will hopefully increase the number of ,essages that I receive.
+So to avoid us having to retype everything, I'm going to copy and paste the basic modal code from Bootstrap's documentation.
+
 Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
+<!-- Feature 1 - allows users X to achieve Y, by having them fill out Z
+The section of education and resume is resolver by showing the different schools and workplaces in the timeline form. It eases the and simplifies for the viewer different list items.
 ...
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
+
 Features Left to Implement
 Another feature idea
 Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used. -->
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
@@ -66,8 +75,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
+The text for section project was copied from the brochure of Code Institutes brochure.
 Media
-The photos used in this site were obtained from ...
+The photos used in this site were obtained from ...http://resizeimage.net/
+https://stock.adobe.com/ee/
+
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from the User centric design challenge Rosie's project. Also from the portfolio of Haley Schafer.
