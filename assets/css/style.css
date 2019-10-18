@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700'); */
-
 body {
     background-attachment: fixed;
     font-family: 'Roboto Mono', monospace;
@@ -9,15 +7,15 @@ body {
 .bg-color-experience {
     background-color: #ffc107;
 }
+
 .bg-color-education {
     background-color: #6c757d;
 }
+
 .bg-color-toolbox {
     background-color: #6c757d;
 }
-/* .bg-color-projects {
-  background-color: #8f8f8f;
-} */
+
 hr {
     border: 1px dashed white;
 }
@@ -33,31 +31,14 @@ hr {
     width: 100vw;
     margin-bottom: 0px;
     z-index: 1;
-    /* opacity: 0.5; */
-
 }
-
-@media (min-width: 768px) {
+/*
+@media (min-width: 992px) {
     #landing-page {
-        background-size: 100;
+        background-size: ;
     }
-}
-/* .button.navbar-toggler.ml-auto.collapsed {
-position: fixed;
-} */
-/* #navbarNavDropdown {
-    position: fixed;
-} */
-/* .navbar-nav {
-    position: fixed;
 } */
 
-/* .navbar-toggler-icon {
-    position: fixed;
-} */
-/* .navbar-toggler  {
-    position: fixed;
-} */
 .top {
     padding-left: 12px;
     margin-top: 12%;
@@ -66,14 +47,14 @@ position: fixed;
 h1 {
     padding-top: 0.5%;
     text-shadow: 2px 1px #6b6b6b;
-    /* font-size: 2.5em; */
 }
+
 .title {
     text-transform: uppercase;
-    font-weight: 700;
-
-
+    font-weight: 600;
+    color: #ffc107;
 }
+
 .intro {
     text-transform: uppercase;
     font-weight: 700;
@@ -81,45 +62,26 @@ h1 {
     position: absolute;
     top: 2vh;
 }
-.intro h3 {
-text-shadow: 1.5px 1px lightgoldenrodyellow;
-
-}
 
 .navbar {
     background-color: transparent;
 }
 
-.btn-cta {
-background-color: transparent;
-  border: none;
-  color: #ffc107;
-  font-weight: 500;
-  padding: 12px;
-  text-align: center;
-  text-shadow: 2px 1px black;
-  border-radius: 8px;
-  border-color: #ffc107;
-  border: 1.5px solid #ffc107 ;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  margin: 4px 2px;
-  /* cursor: pointer; */
-  float: center;
-}
 .d-md-block {
     margin-top: 60%;
 }
+
 .btn-cta p {
     text-align: center;
 }
+
 .btn-cta:hover {
 color: black;
 }
 
 
 /* ----------------------------------------Education/Experience */
+
 #education {
     background-image: url('../images/education.jpeg');
     background-repeat: no-repeat;
@@ -128,29 +90,27 @@ color: black;
     margin-left: auto;
     margin-right: auto;
 }
-/* @media (min-width: 768px) {
-  #education {
-    width: 100%;
-    background-size: 100% 100%
-  }
-} */
+
+.education-items {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .education-head {
     text-transform: uppercase;
     color: white;
 }
 
 #institute,
-#university {
+#university,
+#tartu {
     color:#ffc107;
 }
-.col-12 h3 {
- margin-top: 15px;
 
+#north-estonia,
+#estonia {
+    color: gray;
 }
 
-.col-4 {
-    padding: 25px;
-}
 
 /* ----------------------------------------Experience */
 #experience {
@@ -163,6 +123,10 @@ color: black;
     font-weight: 700;
 }
 
+.experience-items {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .experience-head {
     color: #fafafa;
     margin-bottom: 20px;
@@ -202,12 +166,8 @@ color: black;
     position: absolute;
     left: -6px;
     border-radius: 12px;
-    content: '';
     background: #fafafa;
-}
-
-.history-items {
-    margin-bottom: 30px;
+    content: '';
 }
 
   /* ----------------------------------------Toolbox */
@@ -216,26 +176,28 @@ color: black;
     text-transform: uppercase;
     color: #fafafa;
 }
-
-.row toolbox {
-    text-align: center;
+.row  ul {
+    background-position: center;
 }
+
 .skills .row {
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     color: #fafafa;
+}
 
-}
 .col-md-4 h2 {
-    margin-top: 2px;
+    margin-top: 10px;
 }
+
 .col-6 h4 {
     font-weight: 700;
     text-shadow: 1.5px 1px black;
 }
 
    /* ----------------------------------------Projects */
+
 #projects {
     background-image: url('../images/projects.jpeg');
     background-repeat: no-repeat;
@@ -244,18 +206,26 @@ color: black;
     margin-left: auto;
     margin-right: auto;
 }
+
 .projects-head {
     text-transform: uppercase;
     font-size: 55px;
     padding: 3%;
+    text-align: center;
 }
 .modal-body {
     position: center;
 }
+
+.modal-footer {
+    padding: 0px;
+}
+
 .projects a i {
     float: center;
     margin-top: 10%;
  }
+
 .project-links a i {
     width: 50px;
     height: 50px;
@@ -270,23 +240,29 @@ color: black;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-
 }
+
 .col-md-8 h2 {
     margin-top: 25px;
     text-shadow: 2px 1px #6b6b6b;
 }
+
 button[type="button"] {
-float: center;
+    float: center;
+    margin: 20px 0px 10px 0px;
 }
+
 /* ----------------------------------------Contact */
+
 button[type="submit"] {
     background-color: #17A2B6;
     color: #f8f9fa;
     border-color: transparent;
     float: center;
     border: 20px;
+    margin: 30px;
 }
+
 .col h2 {
     margin-top: 25px;
     text-shadow: 2px 1px #6b6b6b;
@@ -296,16 +272,20 @@ button[type="submit"] {
     margin-top: 10px;
     text-shadow: 2px 1px #6b6b6b;
 }
- .col .btn {
+.col .btn {
      margin-top: 25px;
  }
-form {
-    padding: 10%;
-}
+
+ .form-control {
+     margin: 5px;
+ }
+
  #contact {
      background-image: url('../images/contact.jpg');
  }
+
 /* ----------------------------------------Footer */
+
 footer {
     background-color: #6b6b6b;
     color: #fafafa;
@@ -342,6 +322,7 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
 .university i:hover {
     color: #ffc107;
 }
@@ -381,19 +362,25 @@ footer {
 /*-------------Media queries------------ */
 
 @media (max-width: 767px) {
-    .mobile{
-    /* #education, #experience, #landing-page, #contact{ */
+     button[type="button"] {
+float: center;
+margin: 20px 0px 20px 0px;
+
+}
+
+.mobile{
+ /* #education, #experience, #landing-page, #contact{ */
         background-attachment: scroll;
     }
 }
 /* min-width is used for mobile first approach */
 
-@media (min-width: 768px) {
+@media (max-width: 992px) {
     #landing-page {
         background-color: ;
     }
 }
-@media (min-width: 992px) and (max-witdth: 1880px) {
+@media (min-width: 992px) and (max-width: 1880px) {
     .desktop {
         background-color: ;
     }
@@ -417,7 +404,11 @@ footer {
     }
 } */
 
-@media (max-width: 992px) {
+@media (min-width: 768px) {
+    button[type="button"] {
+float: center;
+padding: 5px;
+}
     #education, #experience, #landing-page{
         background-attachment: scroll;
     }
