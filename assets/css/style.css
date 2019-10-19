@@ -59,9 +59,9 @@ h1 {
     background-color: transparent;
 }
 
-.nav-link {
+/* .navbar-light .navbar-nav .nav-link {
     color: #ffc107;
-}
+} */
 
 @media (min-width: 2000px) {
     .navbar-fixed-top {
