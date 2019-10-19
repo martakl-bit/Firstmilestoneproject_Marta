@@ -29,6 +29,13 @@ body {
     z-index: 1;
 }
 
+@media (min-width: 992px) and (max-width: 3000px) {
+    #landing-page {
+        background-size: fixed;
+        width: 100vw;
+    }
+}
+
 .intro {
     text-transform: uppercase;
     font-weight: 700;
@@ -50,6 +57,10 @@ h1 {
 
 .navbar {
     background-color: transparent;
+}
+
+.nav-link {
+    color: #ffc107;
 }
 
 @media (min-width: 2000px) {
@@ -275,6 +286,17 @@ button[type="submit"] {
      background-image: url('../images/contact.jpg');
 }
 
+@media (min-width: 1024px) {
+    .form-control {
+        width: 50%;
+        height: 50%;
+        display: inline-block;
+        position: relative;
+        left: 250px;
+        right: 100px;
+    }
+}
+
 /* ----------------------------------------Footer */
 
 footer {
@@ -342,15 +364,7 @@ footer {
     padding: 20px;
 }
 
-@media (min-width: 992px) {
-    #footer-details {
-        width: 990px;
-    }
-}
-
-/*-------------Media queries------------ */
-
-@media (min-width: 992px) and (max-width: 3000px) {
+ @media (min-width: 992px) and (max-width: 3000px) {
     #landing-page {
         background-size: fixed;
         width: 100vw;
